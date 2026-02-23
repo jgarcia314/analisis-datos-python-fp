@@ -5,13 +5,17 @@ Bienvenido al repositorio oficial del libro **"Análisis de Datos con Python"**.
 ## 📂 Estructura del Repositorio
 
 - **`data/raw/`**: Datasets originales tal cual se descargan de la fuente (para practicar limpieza).
-- **`notebooks/`**: Cuadernos de Jupyter organizados por Unidad Temática (UT). *(Próximamente)*
+- **`notebooks/`**: Cuadernos de Jupyter organizados por Unidad Temática (UT).
 - **`docs/`**: Documentación adicional (Diccionario de datos, guías de instalación).
 
 ## 🚀 Cómo Empezar
 
 ### Opción A: Google Colab (Recomendada para principiantes)
-Puedes ejecutar los notebooks directamente en la nube sin instalar nada. Busca el botón "Open in Colab" al inicio de cada notebook.
+Puedes ejecutar los notebooks directamente en la nube sin instalar nada:
+
+| Unidad | Notebook | Abrir en Colab |
+| :--- | :--- | :--- |
+| UT6 — EDA: Estadística Descriptiva | `UT06_EDA_Estadistica_Descriptiva.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT06_EDA_Estadistica_Descriptiva.ipynb) |
 
 ### Opción B: Entorno Local (Recomendada para profesionales)
 1. Clona este repositorio:
