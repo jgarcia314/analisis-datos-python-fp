@@ -2,15 +2,10 @@
 
 Bienvenido al repositorio oficial del libro **"Análisis de Datos con Python"**. Este repositorio contiene todos los materiales necesarios para seguir el curso: datasets, notebooks de Jupyter con el código de los capítulos y soluciones a los ejercicios prácticos.
 
-![Portada del Libro (Placeholder)](static/images/portada_placeholder.png)
-
 ## 📂 Estructura del Repositorio
 
-- **`data/`**: El almacén de datos.
-  - `raw/`: Datasets originales "sucios" tal cual se descargan de la fuente (para practicar limpieza).
-  - `processed/`: Datasets limpios y listos para análisis (para comprobar tus resultados).
-- **`notebooks/`**: Cuadernos de Jupyter organizados por Unidad Temática (UT).
-- **`static/`**: Recursos visuales y scripts auxiliares.
+- **`data/raw/`**: Datasets originales tal cual se descargan de la fuente (para practicar limpieza).
+- **`notebooks/`**: Cuadernos de Jupyter organizados por Unidad Temática (UT). *(Próximamente)*
 - **`docs/`**: Documentación adicional (Diccionario de datos, guías de instalación).
 
 ## 🚀 Cómo Empezar
@@ -21,8 +16,8 @@ Puedes ejecutar los notebooks directamente en la nube sin instalar nada. Busca e
 ### Opción B: Entorno Local (Recomendada para profesionales)
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/analisis-datos-python-libro.git
-   cd analisis-datos-python-libro
+   git clone https://github.com/jgarcia314/analisis-datos-python-fp.git
+   cd analisis-datos-python-fp
    ```
 2. Crea un entorno virtual e instala las dependencias exactas:
    ```bash
