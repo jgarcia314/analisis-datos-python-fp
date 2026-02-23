@@ -28,9 +28,16 @@ Puedes ejecutar los notebooks directamente en la nube sin instalar nada. Busca e
 
 | Dataset | Descripción | Uso en UTs |
 | :--- | :--- | :--- |
-| **Titanic** | Pasajeros del famoso naufragio (Clasificación) | UT1, UT3, UT8 |
-| **House Prices** | Precios de viviendas en Ames, Iowa (Regresión) | UT5, UT6, UT7, UT8, UT9, UT10 |
-| **Air Quality UCI** | Calidad del aire con series temporales | UT2, UT4 |
+| `house_prices.csv` | Precios de viviendas en Ames, Iowa — 1.460 registros, 81 variables (Regresión) | UT6, UT7, UT9, UT10 |
+| `titanic.csv` | Pasajeros del Titanic — supervivencia y perfil socioeconómico (Clasificación) | UT1, UT3, UT4, UT8, UT9 |
+| `iris.csv` | Medidas de pétalos y sépalos de 3 especies de iris (Clasificación) | UT2, UT4, UT6, UT7, UT8, UT9 |
+| `used_cars_raw.csv` | Vehículos de segunda mano de CarDekho — 301 registros (Regresión) | UT5 |
+| `air_quality_uci.csv` | Calidad del aire con series temporales horarias (UCI) | UT2 |
+| `emp_attrition.csv` | Rotación de empleados — variables laborales y satisfacción | UT6 |
+| `telco_churn.csv` | Abandono de clientes en empresa de telecomunicaciones | UT6 |
+| `california_housing.csv` | Precios de viviendas en California — variables geográficas | UT8 |
+| `winequality-red.csv` | Calidad de vinos tintos — propiedades fisicoquímicas | UT8 |
+| `cars.csv` | Dataset auxiliar de referencia | — |
 
 *Consulta `docs/Diccionario_Datos.md` para el detalle de las variables de House Prices.*
 
