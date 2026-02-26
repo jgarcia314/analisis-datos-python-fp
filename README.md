@@ -15,7 +15,16 @@ Puedes ejecutar los notebooks directamente en la nube sin instalar nada:
 
 | Unidad | Notebook | Abrir en Colab |
 | :--- | :--- | :--- |
+| UT1 — El Detective de Datos | `UT01_El_Detective_de_Datos.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT01_El_Detective_de_Datos.ipynb) |
+| UT2 — NumPy: Computación Vectorizada | `UT02_NumPy_Computacion_Vectorizada.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT02_NumPy_Computacion_Vectorizada.ipynb) |
+| UT3 — Pandas: Manipulación de DataFrames | `UT03_Pandas_Manipulacion_DataFrames.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT03_Pandas_Manipulacion_DataFrames.ipynb) |
+| UT4 — Adquisición de Datos | `UT04_Adquisicion_de_Datos.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT04_Adquisicion_de_Datos.ipynb) |
+| UT5 — Preprocesamiento Avanzado | `UT05_Preprocesamiento_Avanzado.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT05_Preprocesamiento_Avanzado.ipynb) |
 | UT6 — EDA: Estadística Descriptiva | `UT06_EDA_Estadistica_Descriptiva.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT06_EDA_Estadistica_Descriptiva.ipynb) |
+| UT7 — Visualización de Datos | `UT07_Visualizacion_de_Datos.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT07_Visualizacion_de_Datos.ipynb) |
+| UT8 — Machine Learning Básico | `UT08_Machine_Learning_Basico.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT08_Machine_Learning_Basico.ipynb) |
+| UT9 — Dashboards y Comunicación | `UT09_Dashboards_Comunicacion.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT09_Dashboards_Comunicacion.ipynb) |
+| UT10 — Proyecto Final Integrador | `UT10_Proyecto_Final_Integrador.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT10_Proyecto_Final_Integrador.ipynb) |
 
 ### Opción B: Entorno Local (Recomendada para profesionales)
 1. Clona este repositorio:
