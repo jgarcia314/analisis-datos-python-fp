@@ -1,4 +1,8 @@
-# Análisis de Datos con Python - Libro Profesional
+# Análisis de Datos con Python
+
+<p align="center">
+  <img src="portada.jpg" alt="Portada del libro Análisis de Datos con Python" width="300"/>
+</p>
 
 Bienvenido al repositorio oficial del libro **"Análisis de Datos con Python"**. Este repositorio contiene todos los materiales necesarios para seguir el curso: datasets, notebooks de Jupyter con el código de los capítulos y soluciones a los ejercicios prácticos.
 
