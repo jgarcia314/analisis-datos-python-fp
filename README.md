@@ -16,6 +16,9 @@ Bienvenido al repositorio oficial del libro **"Análisis de Datos con Python"**.
 
 ## 🚀 Cómo Empezar
 
+Consulta la [Guía de Entornos](ENTORNOS.md) para una comparativa detallada de todas las opciones.
+
+
 ### Opción A: Google Colab (Recomendada para principiantes)
 Puedes ejecutar los notebooks directamente en la nube sin instalar nada:
 
