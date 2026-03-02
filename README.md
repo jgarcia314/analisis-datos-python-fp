@@ -4,6 +4,8 @@
   <img src="portada.jpg" alt="Portada del libro Análisis de Datos con Python" width="300"/>
 </p>
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jgarcia314/analisis-datos-python-fp/main)
+
 Bienvenido al repositorio oficial del libro **"Análisis de Datos con Python"**. Este repositorio contiene todos los materiales necesarios para seguir el curso: datasets, notebooks de Jupyter con el código de los capítulos y soluciones a los ejercicios prácticos.
 
 ## 📂 Estructura del Repositorio
@@ -30,7 +32,12 @@ Puedes ejecutar los notebooks directamente en la nube sin instalar nada:
 | UT9 — Dashboards y Comunicación | `UT09_Dashboards_Comunicacion.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT09_Dashboards_Comunicacion.ipynb) |
 | UT10 — Proyecto Final Integrador | `UT10_Proyecto_Final_Integrador.ipynb` | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jgarcia314/analisis-datos-python-fp/blob/main/notebooks/UT10_Proyecto_Final_Integrador.ipynb) |
 
-### Opción B: Entorno Local (Recomendada para profesionales)
+### Opción B: Binder (Sin instalación, sin cuenta Google)
+Ejecuta los notebooks en la nube con un solo clic. Binder construye el entorno automáticamente a partir del repositorio (puede tardar 1-2 minutos la primera vez):
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jgarcia314/analisis-datos-python-fp/main)
+
+### Opción C: Entorno local con pip
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/jgarcia314/analisis-datos-python-fp.git
@@ -40,6 +47,32 @@ Puedes ejecutar los notebooks directamente en la nube sin instalar nada:
    ```bash
    pip install -r requirements.txt
    ```
+
+### Opción D: Entorno local con conda (recomendada en Windows)
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/jgarcia314/analisis-datos-python-fp.git
+   cd analisis-datos-python-fp
+   ```
+2. Crea el entorno conda e instala todas las dependencias:
+   ```bash
+   conda env create -f environment.yml
+   conda activate pyad
+   jupyter lab
+   ```
+
+### Opción E: Docker (entorno completamente aislado)
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/jgarcia314/analisis-datos-python-fp.git
+   cd analisis-datos-python-fp
+   ```
+2. Construye la imagen y arranca el servidor Jupyter:
+   ```bash
+   docker build -t pyad .
+   docker run -p 8888:8888 -v $(pwd):/home/jovyan/work pyad
+   ```
+3. Abre en el navegador la URL que aparece en el terminal (con el token).
 
 ## 📊 Datasets Incluidos
 
