@@ -37,7 +37,7 @@ Ejecuta los notebooks en la nube con un solo clic. Binder construye el entorno a
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jgarcia314/analisis-datos-python-fp/main)
 
-### Opción C: Entorno local con pip
+### Opción C: Entorno local con pip (Linux/macOS)
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/jgarcia314/analisis-datos-python-fp.git
@@ -45,7 +45,10 @@ Ejecuta los notebooks en la nube con un solo clic. Binder construye el entorno a
    ```
 2. Crea un entorno virtual e instala las dependencias exactas:
    ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
+   jupyter lab
    ```
 
 ### Opción D: Entorno local con conda (recomendada en Windows)
