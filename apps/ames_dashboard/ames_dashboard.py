@@ -16,7 +16,7 @@ def cargar_datos():
 @st.cache_resource
 def entrenar_modelo(_df):
     FEATURES = ['log_GrLivArea', 'OverallQual', 'YearBuilt',
-                'log1p_TotalBsmtSF', 'GarageArea', 'GarageCars', 'BarrioPremium']
+                'log1p_TotalBsmtSF', 'GarageArea', 'BarrioPremium']
     X = _df[FEATURES].fillna(0)
     y = _df['SalePrice']
     X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -127,7 +127,6 @@ with tab_predictor:
         garaje  = st.slider("Área de garaje (sq ft)", 0, 1400, 400)
     with col_b:
         sotano  = st.slider("Área de sótano (sq ft)", 0, 3000, 800)
-        coches  = st.slider("Capacidad del garaje (coches)", 0, 4, 2)
         barrio_p = st.selectbox("¿Barrio premium?",
                                 ["No (barrio estándar)", "Sí (NridgHt, NoRidge, StoneBr)"])
 
@@ -139,7 +138,6 @@ with tab_predictor:
         'YearBuilt':         anno,
         'log1p_TotalBsmtSF': np.log1p(sotano),
         'GarageArea':        garaje,
-        'GarageCars':        coches,
         'BarrioPremium':     barrio_premium,
     }])
 

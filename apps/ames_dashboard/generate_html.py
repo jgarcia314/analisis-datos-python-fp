@@ -18,7 +18,7 @@ df = pd.read_csv(BASE + "house_prices_ml.csv")
 
 # ── Modelo ─────────────────────────────────────────────────────────────────────
 FEATURES = ['log_GrLivArea', 'OverallQual', 'YearBuilt',
-            'log1p_TotalBsmtSF', 'GarageArea', 'GarageCars', 'BarrioPremium']
+            'log1p_TotalBsmtSF', 'GarageArea', 'BarrioPremium']
 X = df[FEATURES].fillna(0)
 y = df['SalePrice']
 X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
