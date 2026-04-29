@@ -16,7 +16,7 @@ def cargar_datos():
 @st.cache_resource
 def entrenar_modelo(_df):
     FEATURES = ['log_GrLivArea', 'OverallQual', 'YearBuilt',
-                'log1p_TotalBsmtSF', 'GarageArea', 'BarrioPremium']
+                'TotalBsmtSF', 'GarageArea', 'BarrioPremium']
     X = _df[FEATURES].fillna(0)
     y = _df['SalePrice']
     X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -133,12 +133,12 @@ with tab_predictor:
     barrio_premium = 1 if barrio_p.startswith("Sí") else 0
 
     entrada = pd.DataFrame([{
-        'log_GrLivArea':     np.log(area),
-        'OverallQual':       calidad,
-        'YearBuilt':         anno,
-        'log1p_TotalBsmtSF': np.log1p(sotano),
-        'GarageArea':        garaje,
-        'BarrioPremium':     barrio_premium,
+        'log_GrLivArea': np.log(area),
+        'OverallQual':   calidad,
+        'YearBuilt':     anno,
+        'TotalBsmtSF':   sotano,
+        'GarageArea':    garaje,
+        'BarrioPremium': barrio_premium,
     }])
 
     if st.button("Calcular precio estimado", type="primary"):
